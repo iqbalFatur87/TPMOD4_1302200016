@@ -10,6 +10,8 @@ namespace TPMOD4_1302200016
     {
         static void Main(string[] args)
         {
+            DataGeneric<String> dataGeneric = new DataGeneric<string>("1302200016");
+            dataGeneric.PrintData();
             HaloGeneric<String> haloGeneric = new HaloGeneric<string>();
             haloGeneric.SapaUser("Iqbal");
         }
