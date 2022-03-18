@@ -14,6 +14,8 @@ namespace TPMOD4_1302200016
             dataGeneric.PrintData();
             HaloGeneric<String> haloGeneric = new HaloGeneric<string>();
             haloGeneric.SapaUser("Iqbal");
+
+            // Program akan menampilkan sebuah pesan sapaan dengan Nama dan NIM
         }
     }
 }
