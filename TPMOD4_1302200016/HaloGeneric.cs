@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace TPMOD4_1302200016
 {
-    internal class Program
+    internal class HaloGeneric<G>
     {
-        static void Main(string[] args)
+        public void SapaUser(G input)
         {
-            HaloGeneric<String> haloGeneric = new HaloGeneric<string>();
-            haloGeneric.SapaUser("Iqbal");
+            Console.WriteLine("Hai User" + input);
         }
     }
 }
